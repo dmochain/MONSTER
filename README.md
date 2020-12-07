@@ -137,15 +137,15 @@ security).</p>
 <h2>Resources</h2>
 
 <ul>
-<li><span class="falconfont">Falcon</span> submission package <a href="falcon-round3.zip">[zip]</a> (specification, source code, scripts and test vectors)</li>
-<li><span class="falconfont">Falcon</span> specification <a href="falcon.pdf">[pdf]</a></li>
+<li><span class="falconfont">Falcon</span> submission package <a href="https://falcon-sign.info/falcon-round3.zip">[zip]</a> (specification, source code, scripts and test vectors)</li>
+<li><span class="falconfont">Falcon</span> specification <a href="https://falcon-sign.info/falcon.pdf">[pdf]</a></li>
 <li><span class="falconfont">Falcon</span> reference implementation:</li>
   <ul>
-  <li>Source code archive <a href="Falcon-impl-round3.zip">[zip]</a></li>
-  <li>Browse source code online <a href="impl/falcon.h.html">[html]</a></li>
+  <li>Source code archive <a href="https://falcon-sign.info/Falcon-impl-round3.zip">[zip]</a></li>
+  <li>Browse source code online <a href="https://falcon-sign.info/impl/falcon.h.html">[html]</a></li>
   </ul>
 <li>An implementation in Python <a href="https://github.com/tprest/falcon.py">[html]</a></li>
-<li>For reference, submission packages for previous rounds: Round 1 <a href="falcon-round1.zip">[zip]</a> and Round 2 <a href="falcon-round2.zip">[zip]</a></li>
+<li>For reference, submission packages for previous rounds: Round 1 <a href="https://falcon-sign.info/falcon-round1.zip">[zip]</a> and Round 2 <a href="https://falcon-sign.info/falcon-round2.zip">[zip]</a></li>
 <li>Presentations at the NIST PQC Standardization Conferences: Round 1 <a href="https://csrc.nist.gov/CSRC/media/Presentations/Falcon/images-media/Falcon-April2018.pdf">[pdf]</a> and Round 2 <a href="https://csrc.nist.gov/CSRC/media/Presentations/falcon-round-2-presentation/images-media/falcon-prest.pdf">[pdf]</a></li>
 </ul>
 
