@@ -7,7 +7,6 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1" />
 
-<title>Falcon</title>
 <meta name="description" content="" />
 <meta name="keywords" content="" />
 
