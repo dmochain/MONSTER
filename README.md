@@ -1,4 +1,4 @@
-# FALCON
+# MONSTER
 
 <!DOCTYPE html>
 <html>
@@ -21,9 +21,9 @@
 
 <hr />
 
-<h2>About <span class="falconfont">Falcon</span></h2>
+<h2>About <span class="falconfont">Monster</span></h2>
 
-<p><span class="falconfont">Falcon</span> is a cryptographic signature
+<p><span class="falconfont">Monster</span> is a cryptographic signature
 algorithm submitted to NIST <a
 href="https://csrc.nist.gov/projects/post-quantum-cryptography">Post-Quantum
 Cryptography Project</a> on November 30th, 2017. It has been designed
@@ -42,7 +42,7 @@ the usual asymmetric encryption and digitial signature algorithms based
 on number theory (RSA, DSA, Diffie-Hellman, ElGamal, and their elliptic
 curve variants).
 
-<p><span class="falconfont">Falcon</span> is based on the <a
+<p><span class="falconfont">Monster</span> is based on the <a
 href="https://eprint.iacr.org/2007/432">theoretical framework of Gentry,
 Peikert and Vaikuntanathan</a> for lattice-based signature schemes. We
 instantiate that framework over NTRU lattices, with a trapdoor sampler
