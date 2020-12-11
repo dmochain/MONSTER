@@ -142,9 +142,7 @@ security).</p>
 <li><span class="Monsterfont">Monster</span> reference implementation:</li>
   <ul>
   <li>Source code archive <a href="https://Monster-sign.info/Monster-impl-round3.zip">[zip]</a></li>
-  <li>Browse source code online <a href="https://Monster-sign.info/impl/Monster.h.html">[html]</a></li>
   </ul>
-<li>An implementation in Python <a href="https://github.com/tprest/Monster.py">[html]</a></li>
 <li>For reference, submission packages for previous rounds: Round 1 <a href="https://Monster-sign.info/Monster-round1.zip">[zip]</a> and Round 2 <a href="https://Monster-sign.info/Monster-round2.zip">[zip]</a></li>
 <li>Presentations at the NIST PQC Standardization Conferences: Round 1 <a href="https://csrc.nist.gov/CSRC/media/Presentations/Monster/images-media/Monster-April2018.pdf">[pdf]</a> and Round 2 <a href="https://csrc.nist.gov/CSRC/media/Presentations/Monster-round-2-presentation/images-media/Monster-prest.pdf">[pdf]</a></li>
 </ul>
@@ -152,17 +150,5 @@ security).</p>
 
 <h2>Related works</h2>
 
-<ul>
-<li>Thomas Pornin and Thomas Prest <br>
-  <i>More Efficient Algorithms for the NTRU Key Generation using the Field Norm</i> <a href="https://eprint.iacr.org/2019/015.pdf">[pdf]</a>
-<li> Xingye Lu, Man Ho Au and Zhenfei Zhang <br>
-  <i> Raptor: A Practical Lattice-Based (Linkable) Ring Signature</i> <a href="https://eprint.iacr.org/2018/857.pdf">[pdf]</a>
-<li> Thomas Pornin <br>
-  <i> New Efficient, Constant-Time Implementations of Monster</i> <a href="https://eprint.iacr.org/2019/893.pdf">[pdf]</a>
-<li> Pierre-Alain Fouque, Paul Kirchner, Mehdi Tibouchi, Alexandre Wallet and Yang Yu <br>
-  <i> Key Recovery from Gram-Schmidt Norm Leakage in Hash-and-Sign Signatures over NTRU Lattices</i> <a href="https://eprint.iacr.org/2019/1180.pdf">[pdf]</a>
-<li> James Howe, Thomas Prest, Thomas Ricosset and Mélissa Rossi <br>
-  <i> Isochronous Gaussian Sampling: From Inception to Implementation</i> <a href="https://eprint.iacr.org/2019/1411.pdf">[pdf]</a>
-</ul>
 </body>
 </html>
