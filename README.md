@@ -21,9 +21,9 @@
 
 <hr />
 
-<h2>About <span class="falconfont">Monster</span></h2>
+<h2>About <span class="Monsterfont">Monster</span></h2>
 
-<p><span class="falconfont">Monster</span> is a cryptographic signature
+<p><span class="Monsterfont">Monster</span> is a cryptographic signature
 algorithm submitted to NIST <a
 href="https://csrc.nist.gov/projects/post-quantum-cryptography">Post-Quantum
 Cryptography Project</a> on November 30th, 2017. It has been designed
@@ -42,7 +42,7 @@ the usual asymmetric encryption and digitial signature algorithms based
 on number theory (RSA, DSA, Diffie-Hellman, ElGamal, and their elliptic
 curve variants).
 
-<p><span class="falconfont">Monster</span> is based on the <a
+<p><span class="Monsterfont">Monster</span> is based on the <a
 href="https://eprint.iacr.org/2007/432">theoretical framework of Gentry,
 Peikert and Vaikuntanathan</a> for lattice-based signature schemes. We
 instantiate that framework over NTRU lattices, with a trapdoor sampler
@@ -54,7 +54,7 @@ with the help of quantum computers.</p>
 
 <h2>Algorithm Highlights</h2>
 
-<p><span class="falconfont">Falcon</span> offers the following features:</p>
+<p><span class="Monsterfont">Monster</span> offers the following features:</p>
 <ul>
 <li><strong>Security:</strong> a true Gaussian sampler is used internally,
 which guarantees negligible leakage of information on the secret key up to
@@ -70,21 +70,21 @@ common computer; verification is five to ten times faster.</li>
 <em>n)</em> for degree <em>n</em>, allowing the use of very long-term
 security parameters at moderate cost.
 <li><strong>RAM Economy:</strong> the enhanced key generation algorithm
-of <span class="falconfont">Falcon</span> uses less than 30 kilobytes
+of <span class="Monsterfont">Monster</span> uses less than 30 kilobytes
 of RAM, a hundredfold improvement over previous designs such as
-NTRUSign. <span class="falconfont">Falcon</span> is compatible with
+NTRUSign. <span class="Monsterfont">Monster</span> is compatible with
 small, memory-constrained embedded devices.</li>
 </ul>
 
 <h2>Performance</h2>
 
 <p>While resistance to quantum computers is the main drive for the
-design and development of <span class="falconfont">Falcon</span>, the
+design and development of <span class="Monsterfont">Monster</span>, the
 algorithm may achieve significant adoption only if it is also reasonably
 efficient in our current world, where quantum computers do not really
 exist. Using the reference implementation on a common desktop computer
 (Intel® Core® i5-8259U at 2.3 GHz, TurboBoost disabled), <span
-class="falconfont">Falcon</span> achieves the following performance:</p>
+class="Monsterfont">Monster</span> achieves the following performance:</p>
 
 <table>
 <tr class="titlerow">
@@ -97,7 +97,7 @@ class="falconfont">Falcon</span> achieves the following performance:</p>
   <th>sig size</th>
 </tr>
 <tr>
-  <td><span class="falconfont">Falcon</span>-512</td>
+  <td><span class="Monsterfont">Monster</span>-512</td>
   <td class="values">8.64</td>
   <td class="values">14336</td>
   <td class="values">5948.1</td>
@@ -106,7 +106,7 @@ class="falconfont">Falcon</span> achieves the following performance:</p>
   <td class="values">666</td>
 </tr>
 <tr>
-  <td><span class="falconfont">Falcon</span>-1024</td>
+  <td><span class="Monsterfont">Monster</span>-1024</td>
   <td class="values">27.45</td>
   <td class="values">28672</td>
   <td class="values">2913.0</td>
@@ -124,12 +124,12 @@ seed (say, 32 bytes), if the signer accepts to run the key generation
 algorithm every time the key must be loaded.</p>
 
 <p>To give a point of comparison, <span
-class="falconfont">Falcon</span>-512 is roughly equivalent, in classical
+class="Monsterfont">Monster</span>-512 is roughly equivalent, in classical
 security terms, to RSA-2048, whose signatures and public keys use 256
 bytes each. On the specific system on which these measures were taken,
 OpenSSL's thoroughly optimized assembly implementation achieves about
 1140 signatures per second; thus, <span
-class="falconfont">Falcon</span>'s reference implementation, which is
+class="Monsterfont">Monster</span>'s reference implementation, which is
 portable and uses no inline assembly on x86 CPUs, is already more than
 five times faster, and it scales better to larger sizes (for long-term
 security).</p>
@@ -137,16 +137,16 @@ security).</p>
 <h2>Resources</h2>
 
 <ul>
-<li><span class="falconfont">Falcon</span> submission package <a href="https://falcon-sign.info/falcon-round3.zip">[zip]</a> (specification, source code, scripts and test vectors)</li>
-<li><span class="falconfont">Falcon</span> specification <a href="https://falcon-sign.info/falcon.pdf">[pdf]</a></li>
-<li><span class="falconfont">Falcon</span> reference implementation:</li>
+<li><span class="Monsterfont">Monster</span> submission package <a href="https://Monster-sign.info/Monster-round3.zip">[zip]</a> (specification, source code, scripts and test vectors)</li>
+<li><span class="Monsterfont">Monster</span> specification <a href="https://Monster-sign.info/Monster.pdf">[pdf]</a></li>
+<li><span class="Monsterfont">Monster</span> reference implementation:</li>
   <ul>
-  <li>Source code archive <a href="https://falcon-sign.info/Falcon-impl-round3.zip">[zip]</a></li>
-  <li>Browse source code online <a href="https://falcon-sign.info/impl/falcon.h.html">[html]</a></li>
+  <li>Source code archive <a href="https://Monster-sign.info/Monster-impl-round3.zip">[zip]</a></li>
+  <li>Browse source code online <a href="https://Monster-sign.info/impl/Monster.h.html">[html]</a></li>
   </ul>
-<li>An implementation in Python <a href="https://github.com/tprest/falcon.py">[html]</a></li>
-<li>For reference, submission packages for previous rounds: Round 1 <a href="https://falcon-sign.info/falcon-round1.zip">[zip]</a> and Round 2 <a href="https://falcon-sign.info/falcon-round2.zip">[zip]</a></li>
-<li>Presentations at the NIST PQC Standardization Conferences: Round 1 <a href="https://csrc.nist.gov/CSRC/media/Presentations/Falcon/images-media/Falcon-April2018.pdf">[pdf]</a> and Round 2 <a href="https://csrc.nist.gov/CSRC/media/Presentations/falcon-round-2-presentation/images-media/falcon-prest.pdf">[pdf]</a></li>
+<li>An implementation in Python <a href="https://github.com/tprest/Monster.py">[html]</a></li>
+<li>For reference, submission packages for previous rounds: Round 1 <a href="https://Monster-sign.info/Monster-round1.zip">[zip]</a> and Round 2 <a href="https://Monster-sign.info/Monster-round2.zip">[zip]</a></li>
+<li>Presentations at the NIST PQC Standardization Conferences: Round 1 <a href="https://csrc.nist.gov/CSRC/media/Presentations/Monster/images-media/Monster-April2018.pdf">[pdf]</a> and Round 2 <a href="https://csrc.nist.gov/CSRC/media/Presentations/Monster-round-2-presentation/images-media/Monster-prest.pdf">[pdf]</a></li>
 </ul>
 
 
@@ -158,7 +158,7 @@ security).</p>
 <li> Xingye Lu, Man Ho Au and Zhenfei Zhang <br>
   <i> Raptor: A Practical Lattice-Based (Linkable) Ring Signature</i> <a href="https://eprint.iacr.org/2018/857.pdf">[pdf]</a>
 <li> Thomas Pornin <br>
-  <i> New Efficient, Constant-Time Implementations of Falcon</i> <a href="https://eprint.iacr.org/2019/893.pdf">[pdf]</a>
+  <i> New Efficient, Constant-Time Implementations of Monster</i> <a href="https://eprint.iacr.org/2019/893.pdf">[pdf]</a>
 <li> Pierre-Alain Fouque, Paul Kirchner, Mehdi Tibouchi, Alexandre Wallet and Yang Yu <br>
   <i> Key Recovery from Gram-Schmidt Norm Leakage in Hash-and-Sign Signatures over NTRU Lattices</i> <a href="https://eprint.iacr.org/2019/1180.pdf">[pdf]</a>
 <li> James Howe, Thomas Prest, Thomas Ricosset and Mélissa Rossi <br>
