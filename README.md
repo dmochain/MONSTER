@@ -147,8 +147,5 @@ security).</p>
 <li>Presentations at the NIST PQC Standardization Conferences: Round 1 <a href="https://csrc.nist.gov/CSRC/media/Presentations/Monster/images-media/Monster-April2018.pdf">[pdf]</a> and Round 2 <a href="https://csrc.nist.gov/CSRC/media/Presentations/Monster-round-2-presentation/images-media/Monster-prest.pdf">[pdf]</a></li>
 </ul>
 
-
-<h2>Related works</h2>
-
 </body>
 </html>
