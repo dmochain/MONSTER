@@ -138,13 +138,11 @@ security).</p>
 
 <ul>
 <li><span class="Monsterfont">Monster</span> submission package <a href="https://Monster-sign.info/Monster-round3.zip">[zip]</a> (specification, source code, scripts and test vectors)</li>
-<li><span class="Monsterfont">Monster</span> specification <a href="https://Monster-sign.info/Monster.pdf">[pdf]</a></li>
 <li><span class="Monsterfont">Monster</span> reference implementation:</li>
   <ul>
   <li>Source code archive <a href="https://Monster-sign.info/Monster-impl-round3.zip">[zip]</a></li>
   </ul>
 <li>For reference, submission packages for previous rounds: Round 1 <a href="https://Monster-sign.info/Monster-round1.zip">[zip]</a> and Round 2 <a href="https://Monster-sign.info/Monster-round2.zip">[zip]</a></li>
-<li>Presentations at the NIST PQC Standardization Conferences: Round 1 <a href="https://csrc.nist.gov/CSRC/media/Presentations/Monster/images-media/Monster-April2018.pdf">[pdf]</a> and Round 2 <a href="https://csrc.nist.gov/CSRC/media/Presentations/Monster-round-2-presentation/images-media/Monster-prest.pdf">[pdf]</a></li>
 </ul>
 
 </body>
