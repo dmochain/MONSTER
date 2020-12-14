@@ -135,12 +135,12 @@ security).</p>
 <h2>Resources</h2>
 
 <ul>
-<li><span class="Monsterfont">Monster</span> submission package <a href="https://Monster-sign.info/Monster-round3.zip">[zip]</a> (specification, source code, scripts and test vectors)</li>
+<li><span class="Monsterfont">Monster</span> submission package <a href="https://github.com/dmochain/MONSTER/blob/main/Monster-round3.zip">[zip]</a> (specification, source code, scripts and test vectors)</li>
 <li><span class="Monsterfont">Monster</span> reference implementation:</li>
   <ul>
-  <li>Source code archive <a href="https://Monster-sign.info/Monster-impl-round3.zip">[zip]</a></li>
+  <li>Source code archive <a href="https://github.com/dmochain/MONSTER/blob/main/Monster-impl-round3.zip">[zip]</a></li>
   </ul>
-<li>For reference, submission packages for previous rounds: Round 1 <a href="https://Monster-sign.info/Monster-round1.zip">[zip]</a> and Round 2 <a href="https://Monster-sign.info/Monster-round2.zip">[zip]</a></li>
+<li>For reference, submission packages for previous rounds: Round 1 <a href="https://github.com/dmochain/MONSTER/blob/main/Monster-round1.zip">[zip]</a> and Round 2 <a href="https://github.com/dmochain/MONSTER/blob/main/Monster-round2.zip">[zip]</a></li>
 </ul>
 
 </body>
