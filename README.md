@@ -23,10 +23,8 @@
 
 <h2>About <span class="Monsterfont">Monster</span></h2>
 
-<p><span class="Monsterfont">Monster</span> is a cryptographic signature
-algorithm submitted to NIST <a
-href="https://csrc.nist.gov/projects/post-quantum-cryptography">Post-Quantum
-Cryptography Project</a> on November 30th, 2017. It has been designed
+<p><span class="Monsterfont">Monster</span>  is a cryptographic signature
+algorithm which has been designed
 by: Pierre-Alain Fouque, Jeffrey Hoffstein, Paul Kirchner, Vadim
 Lyubashevsky, Thomas Pornin, Thomas Prest, Thomas Ricosset, Gregor
 Seiler, William Whyte, Zhenfei Zhang.</p>
