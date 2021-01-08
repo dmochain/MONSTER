@@ -27,7 +27,7 @@
 algorithm which has been designed
 by: Pierre-Alain Fouque, Jeffrey Hoffstein, Paul Kirchner, Vadim
 Lyubashevsky, Thomas Pornin, Thomas Prest, Thomas Ricosset, Gregor
-Seiler, William Whyte, Zhenfei Zhang.</p>
+Seiler, William Whyte.</p>
 
 <p>The point of a post-quantum cryptographic algorithm is to keep on
 ensuring its security characteristics even faced with <a
