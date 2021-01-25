@@ -132,6 +132,7 @@ portable and uses no inline assembly on x86 CPUs, is already more than
 five times faster, and it scales better to larger sizes (for long-term
 security).</p>
 
+
 <h2>Resources</h2>
 
 <ul>
