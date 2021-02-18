@@ -18,7 +18,6 @@
 
 <body>
 
-
 <hr />
 
 <h2>About <span class="Monsterfont">Monster</span></h2>
